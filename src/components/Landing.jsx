@@ -29,7 +29,7 @@ const Landing = () => {
 
     return (
         <div>
-            <h2 className="text-light mt-4">{title}</h2>
+            <h2 className="text-dark mt-4">{title}</h2>
             <div className="d-flex overflow-auto">
                 {items.map((item) => (
                     <Card
